@@ -30,7 +30,7 @@ class SettingVC: UIViewController
 //            .reset
 //        ],
         [
-            .feedback,
+//            .feedback,
             .about
         ]
     ]

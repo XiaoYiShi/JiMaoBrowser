@@ -163,12 +163,9 @@ extension VC_windows : iCarouselDelegate, iCarouselDataSource
         cardView.label.text = WebWindowsManager.shared.listVC[index].na.viewControllers.last?.title
         cardView.label.textColor = index == WebWindowsManager.shared.currentIndex ? UIColor.custom.main : UIColor.hex(rgb: 0x333333)
         
-        if let image = WebWindowsManager.shared.listVC[index].image?.cropSquare(rect: cropSquareRect)
+        if let image = WebWindowsManager.shared.listVC[index].image
         {
-            let thumbImage = image.scalingToSize(
-                CGSize.init(width: cardView.ys_w, height: image.size.height/image.size.width*cardView.ys_w)
-            )
-            cardView.contentImage.image = thumbImage
+            cardView.contentImage.image = image
         }
         cardView.closeClick = {[weak self] in
             WebWindowsManager.shared.removeWindow(at: index)
@@ -265,6 +262,7 @@ class VC_windows_bottom : UIView
 class VC_windows_Item: UIView
 {
     let label = UILabel()
+    let contentImageBack = UIView()
     let contentImage = UIImageView()
     let closeBtn = UIButton(type: .custom)
     
@@ -292,16 +290,26 @@ class VC_windows_Item: UIView
             make.width.equalTo(40)
         }
         closeBtn.addTarget(self, action: #selector(closeBtnClick), for: .touchUpInside)
-        addSubview(contentImage)
-        contentImage.snp.makeConstraints { (make) in
+        
+        addSubview(contentImageBack)
+        contentImageBack.snp.makeConstraints { (make) in
             make.top.equalTo(label.snp.bottom)
             make.left.equalToSuperview()
             make.right.equalToSuperview()
             make.bottom.equalToSuperview()
         }
-        contentImage.layer.masksToBounds = true
-        contentImage.backgroundColor = .white
-        contentImage.contentMode = .top
+        contentImageBack.layer.masksToBounds = true
+        contentImageBack.backgroundColor = .white
+        
+        contentImageBack.addSubview(contentImage)
+        contentImage.snp.makeConstraints { (make) in
+            make.top.equalToSuperview()
+            make.left.equalToSuperview()
+            make.right.equalToSuperview()
+        }
+//        contentImage.contentMode = .top
+        
+        
     }
     @objc func closeBtnClick() {
         closeClick()

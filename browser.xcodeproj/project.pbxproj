@@ -34,6 +34,20 @@
 		562929C620B22E41004A0E7D /* extension_UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562929C520B22E41004A0E7D /* extension_UIViewController.swift */; };
 		562929C820B27230004A0E7D /* extension_UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562929C720B27230004A0E7D /* extension_UITextField.swift */; };
 		562929CA20B27C77004A0E7D /* extension_String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562929C920B27C77004A0E7D /* extension_String.swift */; };
+		564018D823040E6800B5EA32 /* CCExtension_UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564018CA23040E6800B5EA32 /* CCExtension_UITextField.swift */; };
+		564018D923040E6800B5EA32 /* CCExtension_UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564018CB23040E6800B5EA32 /* CCExtension_UIImage.swift */; };
+		564018DA23040E6800B5EA32 /* CCExtension_Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564018CC23040E6800B5EA32 /* CCExtension_Array.swift */; };
+		564018DB23040E6800B5EA32 /* CCExtension_UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564018CD23040E6800B5EA32 /* CCExtension_UIView.swift */; };
+		564018DC23040E6800B5EA32 /* CCExtension_UICollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564018CE23040E6800B5EA32 /* CCExtension_UICollectionViewLayout.swift */; };
+		564018DD23040E6800B5EA32 /* CCExtension_UIDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564018CF23040E6800B5EA32 /* CCExtension_UIDevice.swift */; };
+		564018DE23040E6800B5EA32 /* CCExtension_UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564018D023040E6800B5EA32 /* CCExtension_UILabel.swift */; };
+		564018DF23040E6800B5EA32 /* CCExtension_UIScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564018D123040E6800B5EA32 /* CCExtension_UIScreen.swift */; };
+		564018E023040E6800B5EA32 /* CCExtension_URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564018D223040E6800B5EA32 /* CCExtension_URL.swift */; };
+		564018E123040E6800B5EA32 /* CCExtension_UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564018D323040E6800B5EA32 /* CCExtension_UIColor.swift */; };
+		564018E223040E6800B5EA32 /* CCExtension_String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564018D423040E6800B5EA32 /* CCExtension_String.swift */; };
+		564018E323040E6800B5EA32 /* CCExtension_CALayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564018D523040E6800B5EA32 /* CCExtension_CALayer.swift */; };
+		564018E423040E6800B5EA32 /* CCCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564018D623040E6800B5EA32 /* CCCommon.swift */; };
+		564018E523040E6800B5EA32 /* CCExtension_NSNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564018D723040E6800B5EA32 /* CCExtension_NSNotification.swift */; };
 		5658A08521A4F4EC005E2B1A /* BottomWebTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5658A08421A4F4EC005E2B1A /* BottomWebTool.swift */; };
 		5658A08721A64BD1005E2B1A /* VC_Web.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5658A08621A64BD1005E2B1A /* VC_Web.swift */; };
 		5658A08A21A7F929005E2B1A /* VC_windows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5658A08921A7F929005E2B1A /* VC_windows.swift */; };
@@ -76,6 +90,20 @@
 		562929C520B22E41004A0E7D /* extension_UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extension_UIViewController.swift; sourceTree = "<group>"; };
 		562929C720B27230004A0E7D /* extension_UITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extension_UITextField.swift; sourceTree = "<group>"; };
 		562929C920B27C77004A0E7D /* extension_String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extension_String.swift; sourceTree = "<group>"; };
+		564018CA23040E6800B5EA32 /* CCExtension_UITextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCExtension_UITextField.swift; sourceTree = "<group>"; };
+		564018CB23040E6800B5EA32 /* CCExtension_UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCExtension_UIImage.swift; sourceTree = "<group>"; };
+		564018CC23040E6800B5EA32 /* CCExtension_Array.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCExtension_Array.swift; sourceTree = "<group>"; };
+		564018CD23040E6800B5EA32 /* CCExtension_UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCExtension_UIView.swift; sourceTree = "<group>"; };
+		564018CE23040E6800B5EA32 /* CCExtension_UICollectionViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCExtension_UICollectionViewLayout.swift; sourceTree = "<group>"; };
+		564018CF23040E6800B5EA32 /* CCExtension_UIDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCExtension_UIDevice.swift; sourceTree = "<group>"; };
+		564018D023040E6800B5EA32 /* CCExtension_UILabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCExtension_UILabel.swift; sourceTree = "<group>"; };
+		564018D123040E6800B5EA32 /* CCExtension_UIScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCExtension_UIScreen.swift; sourceTree = "<group>"; };
+		564018D223040E6800B5EA32 /* CCExtension_URL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCExtension_URL.swift; sourceTree = "<group>"; };
+		564018D323040E6800B5EA32 /* CCExtension_UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCExtension_UIColor.swift; sourceTree = "<group>"; };
+		564018D423040E6800B5EA32 /* CCExtension_String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCExtension_String.swift; sourceTree = "<group>"; };
+		564018D523040E6800B5EA32 /* CCExtension_CALayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCExtension_CALayer.swift; sourceTree = "<group>"; };
+		564018D623040E6800B5EA32 /* CCCommon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCCommon.swift; sourceTree = "<group>"; };
+		564018D723040E6800B5EA32 /* CCExtension_NSNotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCExtension_NSNotification.swift; sourceTree = "<group>"; };
 		5658A08421A4F4EC005E2B1A /* BottomWebTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomWebTool.swift; sourceTree = "<group>"; };
 		5658A08621A64BD1005E2B1A /* VC_Web.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC_Web.swift; sourceTree = "<group>"; };
 		5658A08921A7F929005E2B1A /* VC_windows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC_windows.swift; sourceTree = "<group>"; };
@@ -184,9 +212,31 @@
 			path = markbook;
 			sourceTree = "<group>";
 		};
+		564018C923040E6800B5EA32 /* CCKit */ = {
+			isa = PBXGroup;
+			children = (
+				564018CA23040E6800B5EA32 /* CCExtension_UITextField.swift */,
+				564018CB23040E6800B5EA32 /* CCExtension_UIImage.swift */,
+				564018CC23040E6800B5EA32 /* CCExtension_Array.swift */,
+				564018CD23040E6800B5EA32 /* CCExtension_UIView.swift */,
+				564018CE23040E6800B5EA32 /* CCExtension_UICollectionViewLayout.swift */,
+				564018CF23040E6800B5EA32 /* CCExtension_UIDevice.swift */,
+				564018D023040E6800B5EA32 /* CCExtension_UILabel.swift */,
+				564018D123040E6800B5EA32 /* CCExtension_UIScreen.swift */,
+				564018D223040E6800B5EA32 /* CCExtension_URL.swift */,
+				564018D323040E6800B5EA32 /* CCExtension_UIColor.swift */,
+				564018D423040E6800B5EA32 /* CCExtension_String.swift */,
+				564018D523040E6800B5EA32 /* CCExtension_CALayer.swift */,
+				564018D623040E6800B5EA32 /* CCCommon.swift */,
+				564018D723040E6800B5EA32 /* CCExtension_NSNotification.swift */,
+			);
+			path = CCKit;
+			sourceTree = "<group>";
+		};
 		56CAAF2120AD8178009DD81C = {
 			isa = PBXGroup;
 			children = (
+				564018C923040E6800B5EA32 /* CCKit */,
 				56CAAF2C20AD8178009DD81C /* browser */,
 				56CAAF2B20AD8178009DD81C /* Products */,
 				D4EF4A1B4475C4D6DA6BE450 /* Pods */,
@@ -356,18 +406,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				564018E423040E6800B5EA32 /* CCCommon.swift in Sources */,
 				562929B820B172FD004A0E7D /* functionVC_head.swift in Sources */,
+				564018E223040E6800B5EA32 /* CCExtension_String.swift in Sources */,
 				562929A920AED6B2004A0E7D /* SettingVC_clearCache.swift in Sources */,
 				562929A020AE8974004A0E7D /* extension_CALayer.swift in Sources */,
 				5658A08721A64BD1005E2B1A /* VC_Web.swift in Sources */,
 				562929A220AECB7F004A0E7D /* SettingVC.swift in Sources */,
 				5616C5B520CE720B00D04951 /* VC_SmallTool_foot.swift in Sources */,
 				562929C620B22E41004A0E7D /* extension_UIViewController.swift in Sources */,
+				564018E123040E6800B5EA32 /* CCExtension_UIColor.swift in Sources */,
+				564018D923040E6800B5EA32 /* CCExtension_UIImage.swift in Sources */,
 				5629299E20AE8554004A0E7D /* mainMenuView.swift in Sources */,
+				564018E323040E6800B5EA32 /* CCExtension_CALayer.swift in Sources */,
+				564018DE23040E6800B5EA32 /* CCExtension_UILabel.swift in Sources */,
 				562781FA20B68BE1006591D4 /* VC_search_history_cell.swift in Sources */,
+				564018DC23040E6800B5EA32 /* CCExtension_UICollectionViewLayout.swift in Sources */,
 				5658A08521A4F4EC005E2B1A /* BottomWebTool.swift in Sources */,
+				564018D823040E6800B5EA32 /* CCExtension_UITextField.swift in Sources */,
 				5629299C20AE7ACA004A0E7D /* extension_UIColor.swift in Sources */,
 				562929AF20B0E89E004A0E7D /* VC_search.swift in Sources */,
+				564018DD23040E6800B5EA32 /* CCExtension_UIDevice.swift in Sources */,
+				564018DB23040E6800B5EA32 /* CCExtension_UIView.swift in Sources */,
+				564018E023040E6800B5EA32 /* CCExtension_URL.swift in Sources */,
 				562929C420B18641004A0E7D /* historyVC.swift in Sources */,
 				5616E45921AD26A2006DB8F7 /* Extension_UIImage.swift in Sources */,
 				56C6FD1B21B37CF30061D2B3 /* VC_SmallTool_saohua.swift in Sources */,
@@ -377,11 +438,14 @@
 				562929A520AED65F004A0E7D /* SettingVC_engine.swift in Sources */,
 				562929BB20B1826A004A0E7D /* extension_NSNotification.swift in Sources */,
 				562929BF20B185C8004A0E7D /* markbookVC.swift in Sources */,
+				564018E523040E6800B5EA32 /* CCExtension_NSNotification.swift in Sources */,
 				5616C5B920CFA44100D04951 /* iCarousel.m in Sources */,
 				562929C220B185E4004A0E7D /* addMarkbookVC.swift in Sources */,
+				564018DF23040E6800B5EA32 /* CCExtension_UIScreen.swift in Sources */,
 				562781F820B66472006591D4 /* extension_UserDefaults.swift in Sources */,
 				56CAAF2E20AD8178009DD81C /* AppDelegate.swift in Sources */,
 				562929AD20AED6DF004A0E7D /* SettingVC_about.swift in Sources */,
+				564018DA23040E6800B5EA32 /* CCExtension_Array.swift in Sources */,
 				5658A08A21A7F929005E2B1A /* VC_windows.swift in Sources */,
 				5616E45B21B13C98006DB8F7 /* VC_Base.swift in Sources */,
 				562929CA20B27C77004A0E7D /* extension_String.swift in Sources */,
@@ -530,20 +594,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: diwei guo (D5KQBCJ863)";
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = RF3D9852ET;
+				DEVELOPMENT_TEAM = D5KQBCJ863;
 				INFOPLIST_FILE = browser/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.sara430.browser;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "78f7d97d-d578-4574-913d-dac547bec07e";
-				PROVISIONING_PROFILE_SPECIFIER = "115IH InHouse: *";
+				PROVISIONING_PROFILE_SPECIFIER = jimaoBrowser_Dis;
 				SWIFT_OBJC_BRIDGING_HEADER = "browser/browser-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -553,19 +617,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: diwei guo (D5KQBCJ863)";
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = RF3D9852ET;
+				DEVELOPMENT_TEAM = D5KQBCJ863;
 				INFOPLIST_FILE = browser/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.sara430.browser;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "78f7d97d-d578-4574-913d-dac547bec07e";
-				PROVISIONING_PROFILE_SPECIFIER = "115IH InHouse: *";
+				PROVISIONING_PROFILE_SPECIFIER = jimaoBrowser_Dis;
 				SWIFT_OBJC_BRIDGING_HEADER = "browser/browser-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

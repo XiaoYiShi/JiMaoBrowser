@@ -8,11 +8,33 @@
 
 import UIKit
 
+
+
+class JiMaoMenuView: UIView
+{
+    //弹出菜单
+    static func show()
+    {
+        
+    }
+    
+    
+}
+
+
+
+
+
 protocol mainMenuVCDelegate: NSObjectProtocol {
     func mainMenuVCClick(type:mainMenuType)
 }
 
-class mainMenuVC : UIViewController {
+class mainMenuVC : UIViewController
+{
+    
+    
+    
+    
     static let share = mainMenuVC()
     let backView = UIView()
     let menu     = mainMenuView()
@@ -47,10 +69,9 @@ class mainMenuVC : UIViewController {
     }
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        UIView.animate(withDuration: 0.2, delay: 0, usingSpringWithDamping: 0.6, initialSpringVelocity: 0, options: .curveEaseOut, animations: {
+        UIView.animate(withDuration: 0.2) {
             self.backView.backgroundColor = UIColor.black.withAlphaComponent(0.65)
             self.menu.ys_y = self.view.ys_h-100-self.menu.ys_h
-        }) { (finished) in
         }
     }
     

@@ -166,7 +166,7 @@ extension functionVC : UICollectionViewDelegate, UICollectionViewDelegateFlowLay
             saohua.title = "来撩"
             self.navigationController?.pushViewController(saohua, animated: true)
         } else if collectArr[indexPath.row] == .yellow {
-            VC_Base.openLink(text: "http://www.2015.xxx", name: "小黄片", isPop: false)
+            VC_Base.openLink(text: "http://www.36xmm.com", name: "小黄片", isPop: false)
         }
     }
 }

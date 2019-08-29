@@ -42,19 +42,19 @@ class AppDelegate : UIResponder, UIApplicationDelegate
     }
     
     func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
-        if url.absoluteString.isJimaoPrivate()
-        {
-            //开启小黄网😊
-            if url.absoluteString == "jimao://yellow"
-            {
-                if let vc = WebWindowsManager.shared.currentVC.na.viewControllers.first as? functionVC
-                {
-                    UserDefaults.Ex.object.pornographicFilm = !UserDefaults.Ex.object.pornographicFilm
-                    vc.reloadCollect()
-                }
-            }
-            return true
-        }
+//        if url.absoluteString.isJimaoPrivate()
+//        {
+//            //开启小黄网😊
+//            if url.absoluteString == "jimao://yellow"
+//            {
+//                if let vc = WebWindowsManager.shared.currentVC.na.viewControllers.first as? functionVC
+//                {
+//                    UserDefaults.Ex.object.pornographicFilm = !UserDefaults.Ex.object.pornographicFilm
+//                    vc.reloadCollect()
+//                }
+//            }
+//            return true
+//        }
         return false
     }
     
